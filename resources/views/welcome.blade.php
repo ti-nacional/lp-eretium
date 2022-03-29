@@ -10,5 +10,6 @@
     @include('site.layouts.video')
     @include('site.layouts.items')
     @include('site.layouts.maca')
+    @include('site.layouts.faq')
 
 @endsection

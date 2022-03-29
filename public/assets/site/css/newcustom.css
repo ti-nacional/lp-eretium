@@ -245,7 +245,125 @@ h1.fs-sm {
 .maca-bg {
     background-image: url(../img/maca.png)
 }
+.faq-bg{
+    background-image: url(../img/faq-bg.png);
+    backdrop-filter: brightness(.1);
+}
+.collapse:not(.show) {
+    display: none;
+    margin-bottom: 0px;
+  }
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .accordion-button {
+      transition: none;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    color:#fff;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .accordion-button:not(.collapsed)::before {
+    background-image: url(../img/closed.svg);
+    width: 1.25rem;
+  }
+  .accordion-button::before {
+    flex-shrink: 0;
+    align-items:center;
+    width: 1.25rem;
+    height: 2.25rem;
+    margin-right: .7rem;
+    content: "";
+    background-image: url(../img/open.svg);
+    background-position-y: 60% ;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .accordion-button::before {
+      transition: none;
+    }
+  }
+  .accordion-button:hover {
+    z-index: 2;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #fff;
+    outline: 0;
+  }
+  
+  .accordion-header {
+    margin-bottom: 0;
+  }
+  
+  .accordion-item {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
 
+  }
+  .accordion-item:first-of-type {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  .accordion-item:not(:first-of-type) {
+    border-top: 0;
+  }
+  .accordion-item:last-of-type {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  .accordion-item:last-of-type .accordion-collapse {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  
+  .accordion-body {
+      color: #707070;
+      background-color: #2E2E2E;
+    padding: 1rem 1.25rem;
+  }
+  
+  .accordion-flush .accordion-collapse {
+    border-width: 0;
+  }
+  .accordion-flush .accordion-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+  }
+  .accordion-flush .accordion-item:first-child {
+    border-top: 0;
+  }
+  .accordion-flush .accordion-item:last-child {
+    border-bottom: 0;
+  }
+  .accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+  }
+  
 @media screen and (max-width: 1640px) {
     .me-lg-none {
         margin-right: 0px !important;
