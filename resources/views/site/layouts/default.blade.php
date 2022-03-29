@@ -5,5 +5,6 @@
     <main>
         @yield('content')
     </main>
+    @include('site.layouts.footer')
 </body>
 </html>
