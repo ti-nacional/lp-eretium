@@ -402,7 +402,9 @@ h1.fs-sm {
     .d-sm-block {
         display: block !important
     }
-
+    .items-card__option.promotion{
+        height:auto;
+    }
     .gift-img {
         width: 42% !important;
         right: -10px !important
