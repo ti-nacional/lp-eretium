@@ -243,7 +243,8 @@ h1.fs-sm {
 }
 
 .maca-bg {
-    background-image: url(../img/maca.png)
+    background-image: url(../img/maca-bg-lg.svg);
+    border: 3px solid red;
 }
 .faq-bg{
     background-image: url(../img/faq-bg.png);
@@ -408,5 +409,8 @@ h1.fs-sm {
     .gift-img {
         width: 42% !important;
         right: -10px !important
+    }
+    .maca-bg {
+        background-image: url(../img/maca.png);
     }
 }
