@@ -1,4 +1,4 @@
-<section class="dark-bg">
+<section class="dark-bg" id="items">
     <div class="container">
         <header class="mb-5">
             <h1 class="text-blue text-center">
@@ -24,12 +24,12 @@
                         </li>
                         <li>
                             <strong>
-                                Ou em até 12x sem juros de
+                                Ou em até 3x sem juros de
                             </strong>
                         </li>
                     </ul>
                     <h1 class="text-center py-1">
-                        R$ 00,00
+                        R$ 66,33
                     </h1>
                     <a href="" class="btn-buy text-center">Compre agora</a>
                 </div>
@@ -45,10 +45,10 @@
                     </h2>
                     <ul class="px-3">
                         <li>
-                            preço de tabela: <strike style="color: red">R$199,90</strike>
+                            preço de tabela: <strike style="color: red">R$599,90</strike>
                         </li>
                         <li>
-                            preço com desconto: <strong>R$199,90</strong>
+                            preço com desconto: <strong>R$449,90</strong>
                         </li>
                         <li>
                             <strong>
@@ -57,7 +57,7 @@
                         </li>
                     </ul>
                     <h1 class="text-center py-1">
-                        R$ 00,00
+                        R$ 37,42
                     </h1>
                     <a href="" class="btn-buy text-center">Compre agora</a>
                 </div>
@@ -75,10 +75,10 @@
                     </h2>
                     <ul class="px-3">
                         <li>
-                            preço de tabela: <strike style="color: red">R$199,90</strike>
+                            preço de tabela: <strike style="color: red">R$999,90</strike>
                         </li>
                         <li>
-                            preço com desconto: <strong>R$199,90</strong>
+                            preço com desconto: <strong>R$799,60</strong>
                         </li>
                         <li>
                             <strong>
@@ -87,7 +87,7 @@
                         </li>
                     </ul>
                     <h1 class="text-center py-1">
-                        R$ 00,00
+                        R$ 59,99
                     </h1>
                     <a href="" class="btn-buy text-center">Compre agora</a>
                 </div>

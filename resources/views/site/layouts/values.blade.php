@@ -3,7 +3,7 @@
         <div class="row align-items-center py-5">
             <div class="col-sm-6 relative d-flex flex-column">
                 <img class="img-responsive" src={{asset('assets/site/img/seal.svg')}} alt="">
-                <a class="btn-buy c-value__btn" href="">Quero comprar agora</a>
+                <a class="btn-buy c-value__btn" href="#items">Quero comprar agora</a>
             </div>
             <div class="col-sm-6 d-flex justify-content-center">
                 <ul>

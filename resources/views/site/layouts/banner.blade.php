@@ -4,7 +4,7 @@
 
 <div class="row justify-content-center" style="position:relative; bottom: 80px; width: 100%">
     <div class="col-lg-4 d-flex justify-content-center">
-        <a href="" class="btn-buy fw-heavy">quero comprar agora</a>
+        <a href="#items" class="btn-buy fw-heavy">quero comprar agora</a>
     </div>
 </div>
 
