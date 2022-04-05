@@ -225,13 +225,14 @@ h1.fs-sm {
     border-top-right-radius: 0;
     border: 2px solid #FFC400;
     height: 620px;
+    position: relative;
+
 }
 
 .items-card__option.gift {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border: 2px solid red;
-    position: relative;
 }
 
 .gift-img {
@@ -244,10 +245,12 @@ h1.fs-sm {
 
 .maca-bg {
     background-image: url(../img/maca-bg-lg.svg);
+    background-size: cover;
     border: 3px solid #D52301;
 }
 .faq-bg{
     background-image: url(../img/faq-bg.png);
+    background-size: cover;
     backdrop-filter: brightness(.1);
 }
 .collapse:not(.show) {
@@ -366,12 +369,18 @@ h1.fs-sm {
   }
   .footer-bg{
       background-image: url(../images/footer-bg.svg);
+      position: relative;
   }
   .footer-nav__li{
       margin-bottom: .5rem;
       text-transform: uppercase;
   }
-  
+  .footer-text{
+      position: absolute;
+      font-size: 11rem;
+      color: #ccc;
+      filter: opacity(0.2);
+  }
 @media screen and (max-width: 1640px) {
     .me-lg-none {
         margin-right: 0px !important;
@@ -412,5 +421,8 @@ h1.fs-sm {
     }
     .maca-bg {
         background-image: url(../img/maca.png);
+    }
+    .footer-text{
+        display: none !important
     }
 }

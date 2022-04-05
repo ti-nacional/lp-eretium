@@ -65,5 +65,6 @@
             </div>
         </div>
     </div>
+    <h1 class="footer-text">ERÉTIUM MAX</h1>
 
 </section>

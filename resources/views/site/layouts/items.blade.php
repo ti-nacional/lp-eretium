@@ -40,9 +40,14 @@
                 </header>
                 <div class="items-card__option promotion">
                     <img class="img-responsive" src={{ asset('assets/site/img/3-items.svg') }} alt="">
-                    <h2 class="text-blue text-uppercase text-center">
+                    <img class="gift-img" src={{ asset('assets/site/img/gift.svg') }} alt="">
+
+                    <h2 class="text-blue text-uppercase text-center mt-4">
                         03 frascos
                     </h2>
+                    <h3 class=" text-uppercase text-center fw-heavy" style="color: red">
+                        + Maca peruana
+                    </h3>
                     <ul class="px-3">
                         <li>
                             preço de tabela: <strike style="color: red">R$599,90</strike>
@@ -68,7 +73,6 @@
                 </header>
                 <div class="items-card__option gift">
                     <img class="img-responsive" src={{ asset('assets/site/img/5-items.svg') }} alt="">
-                    <img class="gift-img" src={{ asset('assets/site/img/gift.svg') }} alt="">
 
                     <h2 class="text-blue text-uppercase text-center">
                         05 frascos
