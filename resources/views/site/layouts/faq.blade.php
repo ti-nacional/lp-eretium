@@ -14,7 +14,7 @@
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Erétium max é um suplemento alimentar em cápsulas desenvolvido para a saúde sexual masculina. Contém  extrato de Paullinia cupana (guaraná), niacina, piridoxina, cobalamina, boro e zinco. Pode auxiliar na manutenção da libido, promover o estímulo energético e melhorar a atividade cerebral. 
+                          Erétium max é um suplemento alimentar em cápsulas desenvolvido para a saúde masculina. Contém  extrato de Paullinia cupana (guaraná), niacina, piridoxina,  vitamina B12, boro e zinco. Pode auxiliar na manutenção da libido, promover o estímulo energético e melhorar a atividade cerebral. 
                         </div>
                       </div>
                     </div>
@@ -26,9 +26,8 @@
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            O boro é um micronutriente que apresenta diversas funções de vital importância para o metabolismo sendo essencial para a saúde. O boro é essencial para o crescimento e manutenção do osso; melhora a cicatrização de feridas; aumenta a absorção de magnésio; reduz os níveis de marcadores inflamatórios, aumenta os níveis de enzimas antioxidantes, melhora a atividade cerebral, demonstrou efeitos preventivos e terapêuticos em vários tipos de cânceres.
-                            O Boro também impacta beneficamente na produção de estrogênio, testosterona e vitamina D. Quando esses hormônios estão baixos, pode levar à diminuição da libido e a um risco aumentado de osteoporose. Dietas ricas em boro podem diminuir esses riscos aumentando sua libido naturalmente.
-                            
+                          O boro é um micronutriente que apresenta diversas funções de vital importância para o metabolismo sendo essencial para a saúde. O boro é essencial para o crescimento e manutenção do osso; melhora a cicatrização de feridas; aumenta a absorção de magnésio; reduz os níveis de marcadores inflamatórios, aumenta os níveis de enzimas antioxidantes, melhora a atividade cerebral, demonstrou efeitos preventivos e terapêuticos em vários tipos de cânceres.
+                          O Boro também impacta beneficamente na produção de estrogênio, testosterona e vitamina D. Quando esses hormônios estão baixos, pode levar à diminuição da libido e a um risco aumentado de osteoporose. Dietas ricas em boro podem diminuir esses riscos aumentando sua libido naturalmente.
                         </div>
                       </div>
                     </div>
@@ -40,7 +39,7 @@
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Indivíduos com sensibilidade a qualquer componente da formulação, não devem usar esse produto. Caso apresente qualquer reação, suspender o uso.
+                          Indivíduos com sensibilidade a qualquer componente da formulação, não devem usar esse produto. Caso apresente qualquer reação, suspender o uso.
                         </div>
                       </div>
                     </div>
@@ -64,11 +63,11 @@
                       </h2>
                       <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Qualquer pessoa acima de 18 anos de idade.
+                            Qualquer pessoa acima de 19 anos de idade.
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    {{-- <div class="accordion-item">
                       <h2 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             Qual o prazo de entrega do produto?
@@ -88,10 +87,10 @@
                       </h2>
                       <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                         
                         </div>
                       </div>
-                    </div>
+                    </div> --}}
                   </div>
             </div>
         </div>
